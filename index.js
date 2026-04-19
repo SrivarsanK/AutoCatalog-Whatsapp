@@ -2,6 +2,8 @@ import 'dotenv/config';
 import express from 'express';
 import pino from 'pino';
 import pinoHttp from 'pino-http';
+import crypto from 'node:crypto';
+import rateLimit from 'express-rate-limit';
 import { handleMessage } from './handler.js';
 
 const app = express();
@@ -21,8 +23,43 @@ const httpLogger = pinoHttp({
   redact: ['req.headers.authorization', 'req.headers["x-hub-signature-256"]']
 });
 
+const limiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 100, // Limit each IP to 100 requests per window
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { status: 'error', message: 'Too many requests' }
+});
+
 app.use(httpLogger);
-app.use(express.json());
+app.use(limiter);
+// We need the raw body for signature verification
+app.use(express.json({
+  verify: (req, res, buf) => {
+    req.rawBody = buf;
+  }
+}));
+
+function verifySignature(req, res, next) {
+  const signature = req.headers['x-hub-signature-256'];
+  if (!signature) {
+    logger.warn('Missing X-Hub-Signature-256 header');
+    return res.sendStatus(403);
+  }
+
+  const elements = signature.split('=');
+  const signatureHash = elements[1];
+  const expectedHash = crypto
+    .createHmac('sha256', process.env.APP_SECRET || '')
+    .update(req.rawBody)
+    .digest('hex');
+
+  if (signatureHash !== expectedHash) {
+    logger.error('Webhook signature verification failed');
+    return res.sendStatus(403);
+  }
+  next();
+}
 
 app.get('/health', (req, res) => res.status(200).json({ status: 'ok', uptime: process.uptime() }));
 
@@ -39,7 +76,7 @@ app.get('/webhook', (req, res) => {
   }
 });
 
-app.post('/webhook', async (req, res) => {
+app.post('/webhook', verifySignature, async (req, res) => {
   try {
     const entry = req.body?.entry?.[0];
     const changes = entry?.changes?.[0];

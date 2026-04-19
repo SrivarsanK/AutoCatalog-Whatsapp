@@ -1,0 +1,10 @@
+.claude/
+everything-claude-code/
+node_modules/
+.git/
+.kiro/
+.windsurf/
+.agents/
+.planning/
+skills/
+package-lock.json

@@ -1,0 +1,686 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "admin.js",
+      "file_type": "code",
+      "source_file": "admin.js",
+      "source_location": "L1",
+      "id": "admin_js",
+      "community": 1,
+      "norm_label": "admin.js"
+    },
+    {
+      "label": "notifyAdmin()",
+      "file_type": "code",
+      "source_file": "admin.js",
+      "source_location": "L7",
+      "id": "admin_notifyadmin",
+      "community": 1,
+      "norm_label": "notifyadmin()"
+    },
+    {
+      "label": "handler.js",
+      "file_type": "code",
+      "source_file": "handler.js",
+      "source_location": "L1",
+      "id": "handler_js",
+      "community": 1,
+      "norm_label": "handler.js"
+    },
+    {
+      "label": "handleMessage()",
+      "file_type": "code",
+      "source_file": "handler.js",
+      "source_location": "L6",
+      "id": "handler_handlemessage",
+      "community": 1,
+      "norm_label": "handlemessage()"
+    },
+    {
+      "label": "i18n.js",
+      "file_type": "code",
+      "source_file": "i18n.js",
+      "source_location": "L1",
+      "id": "i18n_js",
+      "community": 3,
+      "norm_label": "i18n.js"
+    },
+    {
+      "label": "getUserLanguage()",
+      "file_type": "code",
+      "source_file": "i18n.js",
+      "source_location": "L27",
+      "id": "i18n_getuserlanguage",
+      "community": 3,
+      "norm_label": "getuserlanguage()"
+    },
+    {
+      "label": "setUserLanguage()",
+      "file_type": "code",
+      "source_file": "i18n.js",
+      "source_location": "L31",
+      "id": "i18n_setuserlanguage",
+      "community": 3,
+      "norm_label": "setuserlanguage()"
+    },
+    {
+      "label": "getString()",
+      "file_type": "code",
+      "source_file": "i18n.js",
+      "source_location": "L37",
+      "id": "i18n_getstring",
+      "community": 3,
+      "norm_label": "getstring()"
+    },
+    {
+      "label": "index.js",
+      "file_type": "code",
+      "source_file": "index.js",
+      "source_location": "L1",
+      "id": "index_js",
+      "community": 4,
+      "norm_label": "index.js"
+    },
+    {
+      "label": "verifySignature()",
+      "file_type": "code",
+      "source_file": "index.js",
+      "source_location": "L43",
+      "id": "index_verifysignature",
+      "community": 4,
+      "norm_label": "verifysignature()"
+    },
+    {
+      "label": "sheets.js",
+      "file_type": "code",
+      "source_file": "sheets.js",
+      "source_location": "L1",
+      "id": "sheets_js",
+      "community": 2,
+      "norm_label": "sheets.js"
+    },
+    {
+      "label": "clearCache()",
+      "file_type": "code",
+      "source_file": "sheets.js",
+      "source_location": "L15",
+      "id": "sheets_clearcache",
+      "community": 2,
+      "norm_label": "clearcache()"
+    },
+    {
+      "label": "fetchCatalog()",
+      "file_type": "code",
+      "source_file": "sheets.js",
+      "source_location": "L20",
+      "id": "sheets_fetchcatalog",
+      "community": 2,
+      "norm_label": "fetchcatalog()"
+    },
+    {
+      "label": "searchCatalog()",
+      "file_type": "code",
+      "source_file": "sheets.js",
+      "source_location": "L56",
+      "id": "sheets_searchcatalog",
+      "community": 2,
+      "norm_label": "searchcatalog()"
+    },
+    {
+      "label": "verify.js",
+      "file_type": "code",
+      "source_file": "verify.js",
+      "source_location": "L1",
+      "id": "verify_js",
+      "community": 2,
+      "norm_label": "verify.js"
+    },
+    {
+      "label": "runTests()",
+      "file_type": "code",
+      "source_file": "verify.js",
+      "source_location": "L35",
+      "id": "verify_runtests",
+      "community": 2,
+      "norm_label": "runtests()"
+    },
+    {
+      "label": "whatsapp.js",
+      "file_type": "code",
+      "source_file": "whatsapp.js",
+      "source_location": "L1",
+      "id": "whatsapp_js",
+      "community": 1,
+      "norm_label": "whatsapp.js"
+    },
+    {
+      "label": "sendText()",
+      "file_type": "code",
+      "source_file": "whatsapp.js",
+      "source_location": "L3",
+      "id": "whatsapp_sendtext",
+      "community": 1,
+      "norm_label": "sendtext()"
+    },
+    {
+      "label": "sendSingleProduct()",
+      "file_type": "code",
+      "source_file": "whatsapp.js",
+      "source_location": "L30",
+      "id": "whatsapp_sendsingleproduct",
+      "community": 1,
+      "norm_label": "sendsingleproduct()"
+    },
+    {
+      "label": "sendProductList()",
+      "file_type": "code",
+      "source_file": "whatsapp.js",
+      "source_location": "L63",
+      "id": "whatsapp_sendproductlist",
+      "community": 1,
+      "norm_label": "sendproductlist()"
+    },
+    {
+      "label": "Express Webhook Server",
+      "file_type": "code",
+      "source_file": "index.js",
+      "id": "index_express_app",
+      "community": 5,
+      "norm_label": "express webhook server"
+    },
+    {
+      "label": "Webhook Endpoint (/webhook)",
+      "file_type": "code",
+      "source_file": "index.js",
+      "id": "index_webhook_endpoint",
+      "community": 0,
+      "norm_label": "webhook endpoint (/webhook)"
+    },
+    {
+      "label": "Message Handler Logic",
+      "file_type": "code",
+      "source_file": "handler.js",
+      "id": "handler_message_orchestrator",
+      "community": 0,
+      "norm_label": "message handler logic"
+    },
+    {
+      "label": "Meta WhatsApp Cloud API",
+      "file_type": "code",
+      "source_file": "whatsapp.js",
+      "id": "whatsapp_meta_api",
+      "community": 0,
+      "norm_label": "meta whatsapp cloud api"
+    },
+    {
+      "label": "Google Sheets Catalog Client",
+      "file_type": "code",
+      "source_file": "sheets.js",
+      "id": "sheets_catalog_manager",
+      "community": 0,
+      "norm_label": "google sheets catalog client"
+    },
+    {
+      "label": "i18n Localization Engine",
+      "file_type": "code",
+      "source_file": "i18n.js",
+      "id": "i18n_translation_engine",
+      "community": 0,
+      "norm_label": "i18n localization engine"
+    },
+    {
+      "label": "Admin Alert System",
+      "file_type": "code",
+      "source_file": "admin.js",
+      "id": "admin_notification_system",
+      "community": 0,
+      "norm_label": "admin alert system"
+    },
+    {
+      "label": "E2E Verification Tests",
+      "file_type": "code",
+      "source_file": "verify.js",
+      "id": "verify_test_suite",
+      "community": 0,
+      "norm_label": "e2e verification tests"
+    },
+    {
+      "label": "AutoCatalog WhatsApp Bot",
+      "file_type": "document",
+      "source_file": "README.md",
+      "id": "project_concept",
+      "community": 0,
+      "norm_label": "autocatalog whatsapp bot"
+    },
+    {
+      "label": "Sheet-to-WhatsApp Sync",
+      "file_type": "document",
+      "source_file": "GEMINI.md",
+      "id": "concept_catalog_sync",
+      "community": 0,
+      "norm_label": "sheet-to-whatsapp sync"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "admin.js",
+      "source_location": "L7",
+      "weight": 1.0,
+      "_src": "admin_js",
+      "_tgt": "admin_notifyadmin",
+      "source": "admin_js",
+      "target": "admin_notifyadmin",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "admin.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "admin_notifyadmin",
+      "_tgt": "whatsapp_sendtext",
+      "source": "admin_notifyadmin",
+      "target": "whatsapp_sendtext"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "handler.js",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_src": "handler_handlemessage",
+      "_tgt": "admin_notifyadmin",
+      "source": "admin_notifyadmin",
+      "target": "handler_handlemessage"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "sheets.js",
+      "source_location": "L47",
+      "weight": 1.0,
+      "_src": "sheets_fetchcatalog",
+      "_tgt": "admin_notifyadmin",
+      "source": "admin_notifyadmin",
+      "target": "sheets_fetchcatalog"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "handler.js",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "handler_js",
+      "_tgt": "handler_handlemessage",
+      "source": "handler_js",
+      "target": "handler_handlemessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "handler.js",
+      "source_location": "L24",
+      "weight": 1.0,
+      "_src": "handler_handlemessage",
+      "_tgt": "i18n_setuserlanguage",
+      "source": "handler_handlemessage",
+      "target": "i18n_setuserlanguage"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "handler.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "handler_handlemessage",
+      "_tgt": "whatsapp_sendtext",
+      "source": "handler_handlemessage",
+      "target": "whatsapp_sendtext"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "handler.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "_src": "handler_handlemessage",
+      "_tgt": "i18n_getstring",
+      "source": "handler_handlemessage",
+      "target": "i18n_getstring"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "handler.js",
+      "source_location": "L36",
+      "weight": 1.0,
+      "_src": "handler_handlemessage",
+      "_tgt": "sheets_searchcatalog",
+      "source": "handler_handlemessage",
+      "target": "sheets_searchcatalog"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "handler.js",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "handler_handlemessage",
+      "_tgt": "whatsapp_sendsingleproduct",
+      "source": "handler_handlemessage",
+      "target": "whatsapp_sendsingleproduct"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "handler.js",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "handler_handlemessage",
+      "_tgt": "whatsapp_sendproductlist",
+      "source": "handler_handlemessage",
+      "target": "whatsapp_sendproductlist"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "verify.js",
+      "source_location": "L49",
+      "weight": 1.0,
+      "_src": "verify_runtests",
+      "_tgt": "handler_handlemessage",
+      "source": "handler_handlemessage",
+      "target": "verify_runtests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "i18n.js",
+      "source_location": "L27",
+      "weight": 1.0,
+      "_src": "i18n_js",
+      "_tgt": "i18n_getuserlanguage",
+      "source": "i18n_js",
+      "target": "i18n_getuserlanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "i18n.js",
+      "source_location": "L31",
+      "weight": 1.0,
+      "_src": "i18n_js",
+      "_tgt": "i18n_setuserlanguage",
+      "source": "i18n_js",
+      "target": "i18n_setuserlanguage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "i18n.js",
+      "source_location": "L37",
+      "weight": 1.0,
+      "_src": "i18n_js",
+      "_tgt": "i18n_getstring",
+      "source": "i18n_js",
+      "target": "i18n_getstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "i18n.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "i18n_getstring",
+      "_tgt": "i18n_getuserlanguage",
+      "source": "i18n_getuserlanguage",
+      "target": "i18n_getstring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "index.js",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "index_js",
+      "_tgt": "index_verifysignature",
+      "source": "index_js",
+      "target": "index_verifysignature",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sheets.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "_src": "sheets_js",
+      "_tgt": "sheets_clearcache",
+      "source": "sheets_js",
+      "target": "sheets_clearcache",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sheets.js",
+      "source_location": "L20",
+      "weight": 1.0,
+      "_src": "sheets_js",
+      "_tgt": "sheets_fetchcatalog",
+      "source": "sheets_js",
+      "target": "sheets_fetchcatalog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "sheets.js",
+      "source_location": "L56",
+      "weight": 1.0,
+      "_src": "sheets_js",
+      "_tgt": "sheets_searchcatalog",
+      "source": "sheets_js",
+      "target": "sheets_searchcatalog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "verify.js",
+      "source_location": "L79",
+      "weight": 1.0,
+      "_src": "verify_runtests",
+      "_tgt": "sheets_clearcache",
+      "source": "sheets_clearcache",
+      "target": "verify_runtests"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "sheets.js",
+      "source_location": "L57",
+      "weight": 1.0,
+      "_src": "sheets_searchcatalog",
+      "_tgt": "sheets_fetchcatalog",
+      "source": "sheets_fetchcatalog",
+      "target": "sheets_searchcatalog",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "verify.js",
+      "source_location": "L38",
+      "weight": 1.0,
+      "_src": "verify_runtests",
+      "_tgt": "sheets_fetchcatalog",
+      "source": "sheets_fetchcatalog",
+      "target": "verify_runtests"
+    },
+    {
+      "relation": "calls",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "verify.js",
+      "source_location": "L43",
+      "weight": 1.0,
+      "_src": "verify_runtests",
+      "_tgt": "sheets_searchcatalog",
+      "source": "sheets_searchcatalog",
+      "target": "verify_runtests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "verify.js",
+      "source_location": "L35",
+      "weight": 1.0,
+      "_src": "verify_js",
+      "_tgt": "verify_runtests",
+      "source": "verify_js",
+      "target": "verify_runtests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "whatsapp.js",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "whatsapp_js",
+      "_tgt": "whatsapp_sendtext",
+      "source": "whatsapp_js",
+      "target": "whatsapp_sendtext",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "whatsapp.js",
+      "source_location": "L30",
+      "weight": 1.0,
+      "_src": "whatsapp_js",
+      "_tgt": "whatsapp_sendsingleproduct",
+      "source": "whatsapp_js",
+      "target": "whatsapp_sendsingleproduct",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "whatsapp.js",
+      "source_location": "L63",
+      "weight": 1.0,
+      "_src": "whatsapp_js",
+      "_tgt": "whatsapp_sendproductlist",
+      "source": "whatsapp_js",
+      "target": "whatsapp_sendproductlist",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "index.js",
+      "_src": "index_webhook_endpoint",
+      "_tgt": "handler_message_orchestrator",
+      "source": "index_webhook_endpoint",
+      "target": "handler_message_orchestrator"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "handler.js",
+      "_src": "handler_message_orchestrator",
+      "_tgt": "whatsapp_meta_api",
+      "source": "handler_message_orchestrator",
+      "target": "whatsapp_meta_api"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "handler.js",
+      "_src": "handler_message_orchestrator",
+      "_tgt": "sheets_catalog_manager",
+      "source": "handler_message_orchestrator",
+      "target": "sheets_catalog_manager"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "handler.js",
+      "_src": "handler_message_orchestrator",
+      "_tgt": "i18n_translation_engine",
+      "source": "handler_message_orchestrator",
+      "target": "i18n_translation_engine"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "handler.js",
+      "_src": "handler_message_orchestrator",
+      "_tgt": "admin_notification_system",
+      "source": "handler_message_orchestrator",
+      "target": "admin_notification_system"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "verify.js",
+      "_src": "verify_test_suite",
+      "_tgt": "handler_message_orchestrator",
+      "source": "handler_message_orchestrator",
+      "target": "verify_test_suite"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "whatsapp.js",
+      "_src": "whatsapp_meta_api",
+      "_tgt": "project_concept",
+      "source": "whatsapp_meta_api",
+      "target": "project_concept"
+    },
+    {
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "sheets.js",
+      "_src": "sheets_catalog_manager",
+      "_tgt": "concept_catalog_sync",
+      "source": "sheets_catalog_manager",
+      "target": "concept_catalog_sync"
+    }
+  ],
+  "hyperedges": []
+}

@@ -29,3 +29,11 @@ skills-lock.json
 
 # Render
 .render/
+
+
+#Ignore vscode AI rules
+.github\instructions\codacy.instructions.md
+
+# Graphify
+.graphify_*
+.graphify_python

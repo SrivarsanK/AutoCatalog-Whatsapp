@@ -5,7 +5,12 @@ import { notifyAdmin } from './admin.js';
 
 export async function handleMessage(sender, textStr) {
   try {
-    const text = (textStr || '').trim().toLowerCase();
+    let text = (textStr || '').trim().toLowerCase();
+    
+    // SEC-05: Input validation - limit search query length
+    if (text.length > 100) {
+      text = text.substring(0, 100);
+    }
     // Language configuration
     const langMap = {
       'english': 'en',
