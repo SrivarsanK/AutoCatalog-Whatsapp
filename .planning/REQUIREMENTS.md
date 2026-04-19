@@ -96,48 +96,48 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SRVR-01 | — | Pending |
-| SRVR-02 | — | Pending |
-| SRVR-03 | — | Pending |
-| SRVR-04 | — | Pending |
-| SRVR-05 | — | Pending |
-| SRVR-06 | — | Pending |
-| CATL-01 | — | Pending |
-| CATL-02 | — | Pending |
-| CATL-03 | — | Pending |
-| CATL-04 | — | Pending |
-| CATL-05 | — | Pending |
-| CATL-06 | — | Pending |
-| CATL-07 | — | Pending |
-| CATL-08 | — | Pending |
-| MSG-01 | — | Pending |
-| MSG-02 | — | Pending |
-| MSG-03 | — | Pending |
-| MSG-04 | — | Pending |
-| MSG-05 | — | Pending |
-| HNDL-01 | — | Pending |
-| HNDL-02 | — | Pending |
-| HNDL-03 | — | Pending |
-| HNDL-04 | — | Pending |
-| HNDL-05 | — | Pending |
-| HNDL-06 | — | Pending |
-| LANG-01 | — | Pending |
-| LANG-02 | — | Pending |
-| LANG-03 | — | Pending |
-| LANG-04 | — | Pending |
-| ADMN-01 | — | Pending |
-| ADMN-02 | — | Pending |
-| ADMN-03 | — | Pending |
-| ADMN-04 | — | Pending |
-| DEPL-01 | — | Pending |
-| DEPL-02 | — | Pending |
-| DEPL-03 | — | Pending |
-| DEPL-04 | — | Pending |
+| SRVR-01 | Phase 1 | Pending |
+| SRVR-02 | Phase 1 | Pending |
+| SRVR-03 | Phase 1 | Pending |
+| SRVR-04 | Phase 1 | Pending |
+| SRVR-05 | Phase 1 | Pending |
+| SRVR-06 | Phase 1 | Pending |
+| CATL-01 | Phase 2 | Pending |
+| CATL-02 | Phase 2 | Pending |
+| CATL-03 | Phase 2 | Pending |
+| CATL-04 | Phase 2 | Pending |
+| CATL-05 | Phase 2 | Pending |
+| CATL-06 | Phase 2 | Pending |
+| CATL-07 | Phase 2 | Pending |
+| CATL-08 | Phase 2 | Pending |
+| MSG-01 | Phase 1 | Pending |
+| MSG-02 | Phase 2 | Pending |
+| MSG-03 | Phase 2 | Pending |
+| MSG-04 | Phase 2 | Pending |
+| MSG-05 | Phase 1 | Pending |
+| HNDL-01 | Phase 1 | Pending |
+| HNDL-02 | Phase 1 | Pending |
+| HNDL-03 | Phase 2 | Pending |
+| HNDL-04 | Phase 2 | Pending |
+| HNDL-05 | Phase 2 | Pending |
+| HNDL-06 | Phase 2 | Pending |
+| LANG-01 | Phase 3 | Pending |
+| LANG-02 | Phase 3 | Pending |
+| LANG-03 | Phase 3 | Pending |
+| LANG-04 | Phase 3 | Pending |
+| ADMN-01 | Phase 3 | Pending |
+| ADMN-02 | Phase 3 | Pending |
+| ADMN-03 | Phase 3 | Pending |
+| ADMN-04 | Phase 3 | Pending |
+| DEPL-01 | Phase 4 | Pending |
+| DEPL-02 | Phase 4 | Pending |
+| DEPL-03 | Phase 4 | Pending |
+| DEPL-04 | Phase 4 | Pending |
 
 **Coverage:**
 - v1 requirements: 37 total
-- Mapped to phases: 0
-- Unmapped: 37 ⚠️
+- Mapped to phases: 37
+- Unmapped: 0 ✓
 
 ---
 *Requirements defined: 2026-04-19*
